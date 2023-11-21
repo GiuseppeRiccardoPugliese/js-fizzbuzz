@@ -19,6 +19,10 @@
     gap: 1%;
 }
 
+main {
+    margin: 0 100px;
+}
+
 /*************************************************
     BG COLOR
  *************************************************/
@@ -30,7 +34,7 @@
     SQUARE FORMAT
  *************************************************/
 .square {
-    height: 100px;
+    height: 150px;
     background-color: #1389b2;
     color: black;
     width: calc((100% / 7) - 1%);
@@ -41,8 +45,16 @@
     margin-bottom: 20px;
 }
 
-main {
-    margin: 0 100px;
+.red {
+    background-color: #f0466f;
+}
+
+.green {
+    background-color: #0cd6a1;
+}
+
+.yellow {
+    background-color: #ffd166;
 }
 
 /*************************************************

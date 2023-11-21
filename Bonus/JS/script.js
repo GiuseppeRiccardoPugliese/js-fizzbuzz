@@ -19,23 +19,45 @@ for (let i = 1; i <= 100; i++) {
     container.append(square);
 
     if (i % 3 === 0 && i % 5 === 0) { // per i multipli di 3 e di 5 stampo "FizzBuzz"
+
         let fizzBuzz = "FizzBuzz";
         console.log(fizzBuzz);
+
+        //attraverso Append "appendo" il contenuto al mio div
         square.append("FizzBuzz");
 
+        //aggiungo la classe del colore al mio div
+        square.classList.add("red");
+
     } else if (i % 5 === 0) { // per i multipli di 5 stampo "Buzz"
+
         let buzz = "Buzz";
         console.log(buzz);
+
+        //attraverso Append "appendo" il contenuto al mio div
         square.append("Buzz");
 
+        //aggiungo la classe del colore al mio div
+        square.classList.add("yellow")
+
     } else if (i % 3 === 0) { // per i multipli di 3 stampa "Fizz"
+
         let fizz = "Fizz";
         console.log(fizz);
+
+        //attraverso Append "appendo" il contenuto al mio div
         square.append("Fizz");
+
+        //aggiungo la classe del colore al mio div
+        square.classList.add("green")
+
     } else {
+
         console.log(i);
-        // adesso attraverso Append "appendo" il contenuto al mio div
+
+        //attraverso Append "appendo" il contenuto al mio div
         square.append(i);
+
     }
 
     /*
